@@ -1,0 +1,4 @@
+variables.env
+mysite.sock
+
+mysite/static/*

@@ -1,0 +1,31 @@
+version: '2'
+services:
+  web:
+    build: ./django
+    env_file:
+      - ./django/variables.env
+      - ./postgres/variables.env
+    volumes:
+      - ./django/mysite:/www/site
+    depends_on:
+      - db
+    ports:
+      - 127.0.0.1:8000:8000
+  db:
+    build: ./postgres
+    env_file:
+      - ./postgres/variables.env
+    volumes:
+      - ./postgres/data:/var/lib/postgresql/data
+      - ./postgres/log:/var/log/postgresql/data
+  ui:
+    build: ./node
+    volumes:
+      - ./node:/www/ui
+  nginx:
+    build: ./nginx
+    volumes_from:
+      - web
+      - ui
+    ports:
+      - 127.0.0.1:80:80
