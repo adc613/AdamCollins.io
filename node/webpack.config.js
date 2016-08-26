@@ -2,6 +2,9 @@ var webpack = require('webpack');
 var path = require('path');
 var TARGET = process.env.npm_lifecycle_event;
 process.env.BABEL_ENV = TARGET;
+console.log('hello');
+var root = path.resolve('./src/');
+console.log(root);
 
 
 module.exports = {
@@ -9,7 +12,7 @@ module.exports = {
     "./src/entry.jsx"
   ],
   resolve: {
-    extensions: ['', '.js', '.jsx'],
+    extensions: ['', '.js', '.jsx']
   },
   module: {
     loaders: [

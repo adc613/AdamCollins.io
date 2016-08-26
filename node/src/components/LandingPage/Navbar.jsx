@@ -1,0 +1,54 @@
+import React from 'react';
+import PureRenderMixin from 'react-addons-pure-render-mixin';
+import MyNavbar from '../Navbar/Navbar';
+import { fromJS } from 'immutable';
+
+
+class Navbar extends React.Component {
+  constructor(props) {
+    super(props);
+    this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
+  }
+
+  render() {
+    const className = 'landing-page-nav-link';
+    let links = fromJS([
+        {
+          key: 'nav1',
+          title: 'Story',
+          href: '#',
+          class: className,
+          id: ''
+        },
+        {
+          key: 'nav2',
+          title: 'Blog',
+          href: '#',
+          class: className,
+          id: ''
+        },
+        {
+          key: 'nav3',
+          title: 'How',
+          href: '#',
+          class: className,
+          id: ''
+        },
+        {
+          key: 'nav4',
+          title: 'Contact',
+          href: '#',
+          class: className,
+          id: ''
+        },
+      ]);
+
+    return (
+      <MyNavbar
+        links={links}
+      />
+    );
+  }
+}
+
+export default Navbar;
