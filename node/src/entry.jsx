@@ -6,7 +6,7 @@ let hello = function () { };
 class App extends React.Component {
 
   render() {
-    return (<p> Hello World! </p>);
+    return (<p> JAMIE World! </p>);
   }
 
 }
