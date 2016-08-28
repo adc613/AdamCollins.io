@@ -18,7 +18,7 @@ class MyNavbar extends React.Component {
 
   render() { 
     return (
-      <nav className={this.props.class}>
+      <nav id={this.props.id}>
         { this.props.links.map(this.mapLink) }
       </nav>
     );

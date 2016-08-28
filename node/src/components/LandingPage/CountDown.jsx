@@ -13,7 +13,7 @@ class CountDown extends React.Component {
     return (
       <div id="count-down">
         <div className="left-block">
-          <h2>Graduation Data</h2>
+          <h2>Graduation Date</h2>
           <h3>May 2017</h3>
         </div>
         <div className="right-block">
@@ -29,7 +29,7 @@ class CountDown extends React.Component {
 
           <div className="time-block">
             <div className="time-number">
-              <h2>20</h2>
+              <h2> 20 </h2>
             </div>
             <div className="time-title">
               <h6> days </h6>

@@ -43,9 +43,12 @@ class Navbar extends React.Component {
         },
       ]);
 
+    let id = 'landing-page-nav';
+
     return (
       <MyNavbar
         links={links}
+        id={id}
       />
     );
   }

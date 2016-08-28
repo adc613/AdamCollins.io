@@ -11,7 +11,7 @@ class Title extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="landing-page-title">
         <h1>A Personal Site</h1>
         <h2 className="bold">By Adam Collins</h2>
         <h3>Full Stack Web Developer</h3>
