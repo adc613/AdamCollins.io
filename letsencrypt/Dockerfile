@@ -1,5 +1,6 @@
-FROM ubuntu:16.04
+FROM adc613/letsencrypt:base
 
-RUN apt-get update && apt-get install -y letsencrypt
+VOLUME /etc/letsencrypt/live/adamcollins.io
+VOLUME /etc/letsencrypt/archive/
 
 CMD /bin/bash

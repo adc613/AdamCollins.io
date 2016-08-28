@@ -24,8 +24,15 @@ services:
       - ./node:/www/ui
   nginx:
     build: ./nginx
+    depends_on:
+      - letsencrypt
     volumes_from:
       - web
       - ui
+      - letsencrypt
     ports:
       - 0.0.0.0:80:80
+      - 0.0.0.0:443:443
+  letsencrypt:
+    build: ./letsencrypt
+ 
