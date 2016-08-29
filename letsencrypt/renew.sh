@@ -11,6 +11,6 @@ docker push adc613/letsencrypt:base
 
 docker rm tempContainer
 
-docker-compose build letsencrypt
+docker-compose build --no-cache --pull letsencrypt
 
-docker-compose start nginx
+docker-compose up -d
