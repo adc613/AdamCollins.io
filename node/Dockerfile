@@ -6,4 +6,4 @@ WORKDIR /www/ui
 
 EXPOSE 8080
 
-CMD npm start
+CMD npm install && npm start
