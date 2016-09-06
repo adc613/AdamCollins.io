@@ -1,5 +1,6 @@
 import React from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
+import { Link } from 'react-router';
 
 
 class MyNavbar extends React.Component {
@@ -10,13 +11,14 @@ class MyNavbar extends React.Component {
 
   mapLink(link) {
     return (
-      <a key={link.get('key')} href={link.get('href')} className={link.get('class')} id={link.get('id')}>
+      <Link key={link.get('key')} to={link.get('href')} className={link.get('class')} id={link.get('id')}>
         {link.get('title')}
-      </a>
+      </Link>
     );
   }
 
-  render() { 
+  render() {
+
     return (
       <nav id={this.props.id}>
         { this.props.links.map(this.mapLink) }
