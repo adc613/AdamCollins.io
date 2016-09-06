@@ -11,7 +11,7 @@ class Card extends React.Component {
   render() {
     let className = this.props.className ? this.props.className + ' ' : '';
     return (
-      <div className={ className + "card" } id={ this.props.id }>
+      <div onClick={this.props.onClick} className={ className + "card" } id={ this.props.id }>
 
         {this.props.children}
 

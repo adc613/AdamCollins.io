@@ -15,7 +15,6 @@ class StoryPage extends React.Component {
   }
 
   render() {
-    //this.props.actions.test('goodbye world');
     return (
       <div id="storyPage">
         <Bio />
@@ -29,7 +28,7 @@ class StoryPage extends React.Component {
 
 function mapStateToProps(state) {
 
-  return { testText: state.story.get('testText') };
+  return {};
 
 }
 

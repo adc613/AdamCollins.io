@@ -2,3 +2,11 @@
   max-width: 1000px;
   margin: 0 auto;
 }
+
+#storyPage .card .right-block {
+  float: right;
+}
+
+#storyPage .card .left-block {
+  float: left;
+}

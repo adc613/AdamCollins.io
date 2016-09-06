@@ -5,7 +5,18 @@ import rootReducer from './reducers/index';
 
 
 
-const logger = createLogger();
+const logger = createLogger({
+  collapsed: true,
+  stateTransformer: (state) => { 
+    let newState = {};
+
+    for(let key in state) {
+      newState[key] = state[key].toJS();
+    }
+
+    return newState;
+  },
+});
 
 const store = createStore(
   rootReducer,

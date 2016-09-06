@@ -1,21 +1,22 @@
-const TEST_ACTION = 'TEST_ACTION';
+const TOGGLE_OPEN = 'STORY @ TOGGLE_OPEN';
 
-export function testAction(text) {
+export function toggleOpenAction(key) {
+
   return {
-    type: TEST_ACTION,
+    type: TOGGLE_OPEN,
     payload: {
-      text,
+      key,
     }
   };
+
 }
 
-export function test(text) {
+export function toggleOpen(key) {
 
   return (dispatch, getState) => {
-    let func = () => {
-      dispatch(testAction(text));
-    };
-    setTimeout( func, 2000);
+
+    dispatch(toggleOpenAction(key));
+
   };
 
 }

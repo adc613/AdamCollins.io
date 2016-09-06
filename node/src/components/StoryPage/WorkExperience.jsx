@@ -15,11 +15,11 @@ class WorkExperience extends React.Component {
       <ExperienceSection title="Work Experience">
 
         <Experience
-          data="May 2016 - present"
+          date="May 2016 - present"
           company="Custom Orthopaedic Solutions" />
 
         <Experience
-          data="May 2015 - August 2015"
+          date="May 2015 - August 2015"
           company="Custom Orthopaedic Solutions" />
 
       </ExperienceSection>
