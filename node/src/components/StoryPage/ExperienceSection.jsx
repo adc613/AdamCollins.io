@@ -9,9 +9,10 @@ class ExperienceSection extends React.Component {
   }
 
   render() {
+    let className = this.props.className ? this.props.className + ' ' : '';
     return (
-      <div> 
-        jh3> { this.props.title } </h3>
+      <div className={ className + 'experience-section' }> 
+        <h3> { this.props.title } </h3>
         { this.props.children }
       </div>
     );

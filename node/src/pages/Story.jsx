@@ -3,6 +3,9 @@ import PureRenderMixin from 'react-addons-pure-render-mixin';
 import * as actionCreators from '../actions/storyPageActions';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
+import Bio from '../components/StoryPage/Bio';
+import EntrepreneurialExperience from '../components/StoryPage/EntrepreneurialExperience';
+import WorkExperience from '../components/StoryPage/WorkExperience';
 
 
 class StoryPage extends React.Component {
@@ -12,10 +15,12 @@ class StoryPage extends React.Component {
   }
 
   render() {
-    this.props.actions.test('goodbye world');
+    //this.props.actions.test('goodbye world');
     return (
-      <div>
-        {this.props.testText}
+      <div id="storyPage">
+        <Bio />
+        <EntrepreneurialExperience />
+        <WorkExperience />
       </div>
     );
   }

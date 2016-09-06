@@ -13,12 +13,12 @@ class Experience extends React.Component {
     return (
       <Card>
 
-        <div class="left-section"> 
-          <h3 class="company"> { this.props.company } </h3>
+        <div className="left-section"> 
+          <h3 className="company"> { this.props.company } </h3>
         </div>
 
-        <div class="right-section">
-          <h3 class="date"> { this.props.date } </h3>
+        <div className="right-section">
+          <h3 className="date"> { this.props.date } </h3>
         </div>
 
       </Card>

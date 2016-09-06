@@ -15,15 +15,15 @@ class EntrepreneurialExperience extends React.Component {
       <ExperienceSection title="Entrepreneurial Experience">
 
         <Experience
-          data="May 2016 - present"
+          date="May 2016 - present"
           company="CLK Tech" />
 
         <Experience
-          data="Placeholder date"
+          date="Placeholder date"
           company="RentIQ" />
 
         <Experience
-          data="Placeholder date"
+          date="Placeholder date"
           company="Koalah" />
 
       </ExperienceSection>

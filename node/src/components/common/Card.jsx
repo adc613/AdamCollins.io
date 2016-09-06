@@ -9,8 +9,9 @@ class Card extends React.Component {
   }
 
   render() {
+    let className = this.props.className ? this.props.className + ' ' : '';
     return (
-      <div className={ this.props.className + " card" } id={ this.props.id }>
+      <div className={ className + "card" } id={ this.props.id }>
 
         {this.props.children}
 
