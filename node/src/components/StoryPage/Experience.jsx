@@ -10,17 +10,28 @@ class Experience extends React.Component {
   }
 
   render() {
+    let isOpen = this.props.isOpen;
     return (
-      <Card onClick={this.props.onClick}>
+      <Card onClick={this.props.onClick} 
+        className={isOpen ? "experience open" : "experience closed"} >
 
-        <div className="left-block"> 
-          <h3 className="company"> { this.props.company } </h3>
-        </div>
+        <div className="title">
 
-        <div className="right-block">
-          <h3 className="date"> { this.props.date } </h3>
+          <div className="left-block">
+            <h3 className="company"> { this.props.company } </h3>
+          </div>
+
+          <div className="right-block">
+            <h3 className="date"> { this.props.date } </h3>
+          </div>
+          <div style={ { "clear": "both" } }></div>
         </div>
-        <div style={ { "clear": "both" } }></div>
+        <div className={isOpen ? "description open" : "description closed"} >
+          <p> 
+            Lorem ipsum asldkfj jsfkfhelasof lkjero this is a random descritpion
+            i dont care jsut some placeholder text hows likfe good tahts good
+          </p>
+        </div>
 
       </Card>
     );

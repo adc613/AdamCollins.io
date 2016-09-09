@@ -18,6 +18,8 @@ const initialState = fromJS({
 export default function reducer(state = initialState, action) {
 
   switch (action.type) {
+    case TOGGLE_OPEN:
+      return toggleOpen(state, action.payload);
     default:
       return state;
   }

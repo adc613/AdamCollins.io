@@ -10,3 +10,33 @@
 #storyPage .card .left-block {
   float: left;
 }
+
+.experience {
+  transition: all 200ms linear;
+}
+
+.experience.closed {
+  transform: scale(1.0);
+}
+
+.experience.open {
+  transform: scale(1.05);
+}
+
+.experience:hover {
+  transform: scale(1.05);
+}
+
+.description {
+  transition: all 200ms linear;
+  overflow: hidden;
+}
+
+
+.description.closed {
+  height: 0px;
+}
+
+.description.open {
+  height: 100px;
+}

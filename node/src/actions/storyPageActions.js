@@ -1,4 +1,4 @@
-const TOGGLE_OPEN = 'STORY @ TOGGLE_OPEN';
+export const TOGGLE_OPEN = 'STORY @ TOGGLE_OPEN';
 
 export function toggleOpenAction(key) {
 
