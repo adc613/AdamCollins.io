@@ -1,19 +1,26 @@
 import React from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import Card from '../common/Card';
+import OpenClose from '../common/OpenClose';
 
 
 class Experience extends React.Component {
+
   constructor(props) {
     super(props);
     this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
   }
 
   render() {
+
     let isOpen = this.props.isOpen;
+    let uniqueId = this.props.company;
+
     return (
-      <Card onClick={this.props.onClick} 
-        className={isOpen ? "experience open" : "experience closed"} >
+      <Card
+        onClick={this.props.onClick}
+        className={isOpen ? "experience open" : "experience closed"}
+      >
 
         <div className="title">
 
@@ -26,12 +33,16 @@ class Experience extends React.Component {
           </div>
           <div style={ { "clear": "both" } }></div>
         </div>
-        <div className={isOpen ? "description open" : "description closed"} >
-          <p> 
+        <OpenClose
+          uniqueId={uniqueId}
+          isOpen={this.props.isOpen}
+          className="description"
+        >
+          <p>
             Lorem ipsum asldkfj jsfkfhelasof lkjero this is a random descritpion
             i dont care jsut some placeholder text hows likfe good tahts good
           </p>
-        </div>
+        </OpenClose>
 
       </Card>
     );

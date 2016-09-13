@@ -34,9 +34,11 @@
 
 
 .description.closed {
-  height: 0px;
+  /*max-height: 0px;*/
+  transform-origin: top;
 }
 
 .description.open {
-  height: 100px;
+  /*max-height: 100px;*/
+  transform-origin: top;
 }

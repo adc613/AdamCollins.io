@@ -28,6 +28,7 @@ class EntrepreneurialExperience extends React.Component {
         <Experience
           date="May 2016 - present"
           key="clkTech"
+          sizeName="clkTech"
           onClick= { this.onExperienceClick('clkTech') }
           isOpen={this.props.clkTech.get('isOpen')}
           company="CLK Tech" />
@@ -35,6 +36,7 @@ class EntrepreneurialExperience extends React.Component {
         <Experience
           date="May 2016 - present"
           key="rentIQ"
+          sizeName="rentIQ"
           onClick={ this.onExperienceClick('rentIQ') }
           isOpen={this.props.rentIQ.get('isOpen')}
           company="RentIQ" />
@@ -42,6 +44,7 @@ class EntrepreneurialExperience extends React.Component {
         <Experience
           date="May 2016 - present"
           key="koalah"
+          sizeName="koalah"
           onClick={ this.onExperienceClick('koalah') }
           isOpen={this.props.koalah.get('isOpen')}
           company="Koalah" />
