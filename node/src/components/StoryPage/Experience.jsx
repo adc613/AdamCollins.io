@@ -38,10 +38,9 @@ class Experience extends React.Component {
           isOpen={this.props.isOpen}
           className="description"
         >
-          <p>
-            Lorem ipsum asldkfj jsfkfhelasof lkjero this is a random descritpion
-            i dont care jsut some placeholder text hows likfe good tahts good
-          </p>
+
+          { this.props.children }
+
         </OpenClose>
 
       </Card>

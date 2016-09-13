@@ -31,7 +31,19 @@ class EntrepreneurialExperience extends React.Component {
           sizeName="clkTech"
           onClick= { this.onExperienceClick('clkTech') }
           isOpen={this.props.clkTech.get('isOpen')}
-          company="CLK Tech" />
+          company="CLK Tech"
+        >
+          <p>
+            Lorem ipsum asldkfj jsfkfhelasof lkjero this is a random descritpion
+            super logn a;ltjdsf;lj askl;dfj als;fjl;ads jlfjadslkfjadklsf
+            fadsklfjadsl;fjadsklj fads'f
+            asfasdkjfadls;kfj ;las
+            asf kl;asdjf;lasdjfas 'da
+            \sdfkl;asdjf;lasf
+            asfkl;ajsdfl;adsjfadsf;ladjsfkl;j
+            i dont care jsut some placeholder text hows likfe good tahts good
+          </p>
+        </Experience>
 
         <Experience
           date="May 2016 - present"
@@ -39,7 +51,13 @@ class EntrepreneurialExperience extends React.Component {
           sizeName="rentIQ"
           onClick={ this.onExperienceClick('rentIQ') }
           isOpen={this.props.rentIQ.get('isOpen')}
-          company="RentIQ" />
+          company="RentIQ"
+        >
+          <p>
+            Lorem ipsum asldkfj jsfkfhelasof lkjero this is a random descritpion
+            i dont care jsut some placeholder text hows likfe good tahts good
+          </p>
+        </Experience>
 
         <Experience
           date="May 2016 - present"
@@ -47,7 +65,13 @@ class EntrepreneurialExperience extends React.Component {
           sizeName="koalah"
           onClick={ this.onExperienceClick('koalah') }
           isOpen={this.props.koalah.get('isOpen')}
-          company="Koalah" />
+          company="Koalah"
+        >
+          <p>
+            Lorem ipsum asldkfj jsfkfhelasof lkjero this is a random descritpion
+            i dont care jsut some placeholder text hows likfe good tahts good
+          </p>
+        </Experience>
 
       </ExperienceSection>
 

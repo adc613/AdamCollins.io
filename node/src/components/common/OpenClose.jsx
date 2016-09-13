@@ -21,7 +21,7 @@ class OpenClose extends React.Component {
 
   render() {
 
-    let height = this.props.isOpen ? this.props.maxHeight : 0;
+    let height = this.props.isOpen ? this.props.maxHeight + this.props.bias : 0;
     let style = {
       maxHeight: height + "px",
       overflow: "hidden"
@@ -49,9 +49,11 @@ function mapStateToProps(state, ownProps) {
   // plans of implementing such code currently, but I'll leave this code here in case
   // I change my mind
   let isOpen = ownProps.isOpen || state.openClose.getIn([ ownProps.uniqueId, 'isOpen' ]);
+  let bias = ownProps.bias || 30;
 
   return {
-    isOpen: isOpen,
+    isOpen,
+    bias,
     maxHeight: state.openClose.getIn([ ownProps.uniqueId, 'maxHeight' ]),
   };
 
