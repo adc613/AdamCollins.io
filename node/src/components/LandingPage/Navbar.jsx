@@ -4,6 +4,8 @@ import MyNavbar from '../Navbar/Navbar';
 import { fromJS } from 'immutable';
 
 
+const className = 'landing-page-nav-link';
+
 class Navbar extends React.Component {
   constructor(props) {
     super(props);
@@ -11,7 +13,6 @@ class Navbar extends React.Component {
   }
 
   render() {
-    const className = 'landing-page-nav-link';
     let links = fromJS([
         {
           key: 'nav1',

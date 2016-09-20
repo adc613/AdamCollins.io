@@ -6,6 +6,7 @@ import { bindActionCreators } from 'redux';
 import Bio from '../components/StoryPage/Bio';
 import EntrepreneurialExperience from '../components/StoryPage/EntrepreneurialExperience';
 import WorkExperience from '../components/StoryPage/WorkExperience';
+import MyNavbar from '../components/Navbar/MaterialNavbar';
 
 
 class StoryPage extends React.Component {
@@ -16,10 +17,13 @@ class StoryPage extends React.Component {
 
   render() {
     return (
-      <div id="storyPage">
-        <Bio />
-        <EntrepreneurialExperience />
-        <WorkExperience />
+      <div>
+        <MyNavbar />
+        <div id="story-page-content">
+          <Bio />
+          <EntrepreneurialExperience />
+          <WorkExperience />
+        </div>
       </div>
     );
   }

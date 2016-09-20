@@ -1,4 +1,22 @@
-#storyPage {
+#material-nav {
+  width: 100%;
+  background-color: #1A237E;
+  height: 64px;
+}
+
+.material-nav-link {
+  text-decoration: none;
+  color: white;
+  float:right;
+}
+
+#material-nav .title {
+  text-decoration: none;
+  color: white;
+  float: left;
+}
+
+#story-page-content {
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -10,6 +28,7 @@
 #storyPage .card .left-block {
   float: left;
 }
+
 
 .experience {
   transition: all 200ms linear;
