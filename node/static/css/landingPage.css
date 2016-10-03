@@ -7,11 +7,22 @@
 }
 
 /* Nav sttling */ 
-
 #landing-page-nav {
+  font-size: 29px;
+  width: 100%;
+}
+
+#landing-page-nav ul {
   display: flex;
   padding-top: 32px;
   font-size: 29px;
+  height: 100%;
+  padding-left: 0px;
+}
+
+#landing-page-nav ul li {
+  width: 25%;
+  text-align: center;
 }
 
 .landing-page-nav-link {
@@ -20,7 +31,6 @@
   letter-spacing: 0px;
   line-height: 28px;
   font-weight: 100;
-  width: 1000px;
   text-align: center;
   font-size:1em;
 }

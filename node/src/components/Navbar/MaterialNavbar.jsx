@@ -57,9 +57,9 @@ class MaterialNavbar extends React.Component {
 
     let styleDict = {
       position: "absolute",
-      top: 64 + "px",
+      top: 54 + "px",
       right: 346 + "px",
-      width:54 + "px",
+      width:50 + "px",
       height: 3 + "px",
       backgroundColor: "white"
     };
