@@ -7,7 +7,7 @@ import rootReducer from './reducers/index';
 
 const logger = createLogger({
   collapsed: true,
-  stateTransformer: (state) => { 
+  stateTransformer: (state) => {
     let newState = {};
 
     for(let key in state) {
@@ -25,3 +25,5 @@ const store = createStore(
 
 
 export default store;
+
+var hello;

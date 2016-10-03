@@ -10,10 +10,13 @@ class MyNavbar extends React.Component {
   }
 
   mapLink(link) {
+
     return (
-      <Link key={link.get('key')} to={link.get('href')} className={link.get('class')} id={link.get('id')}>
-        {link.get('title')}
-      </Link>
+      <li>
+        <Link key={link.get('key')} to={link.get('href')} className={link.get('class')} id={link.get('id')}>
+          { link.get('title') }
+        </Link>
+      </li>
     );
   }
 
@@ -21,7 +24,9 @@ class MyNavbar extends React.Component {
 
     return (
       <nav id={this.props.id}>
-        { this.props.links.map(this.mapLink) }
+        <uL>
+          { this.props.links.map(this.mapLink) }
+        </uL>
       </nav>
     );
   }

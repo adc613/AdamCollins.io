@@ -1,5 +1,5 @@
 import React from 'react';
-import PureRenderMixin from 'react-addons-pure-render-mixin'
+import PureRenderMixin from 'react-addons-pure-render-mixin';
 import MyNavbar from './Navbar';
 import { fromJS } from 'immutable';
 
@@ -9,7 +9,7 @@ const className = 'material-nav-link';
 class MaterialNavbar extends React.Component {
 
   constructor(props) {
-    super(props)
+    super(props);
     this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
   }
 
@@ -48,19 +48,33 @@ class MaterialNavbar extends React.Component {
           title: 'Story',
           href: '/story',
           class: className,
-          id: 'story'
+          active: true,
+          id: 'story',
         },
       ]);
 
     let id = 'material-nav';
 
+    let styleDict = {
+      position: "absolute",
+      top: 64 + "px",
+      right: 346 + "px",
+      width:54 + "px",
+      height: 3 + "px",
+      backgroundColor: "white"
+    };
+
     return (
-      <MyNavbar
-        links={links}
-        id={id}
-      />
+      <div>
+        <MyNavbar
+          links={links}
+          id={id}
+        />
+        <div className="active-block" style={styleDict}></div>
+      </div>
     );
   }
+
 }
 
 
