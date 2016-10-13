@@ -13,6 +13,12 @@ const initialState = fromJS({
   koalah: {
     isOpen: false,
   },
+  cos: {
+    isOpen: false,
+  },
+  i3: {
+    isOpen: false,
+  },
 });
 
 export default function reducer(state = initialState, action) {

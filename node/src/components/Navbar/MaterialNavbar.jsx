@@ -16,35 +16,35 @@ class MaterialNavbar extends React.Component {
   render() {
     let links = fromJS([
         {
-          key: 'nav5',
+          key: 'nav10',
           title: 'Adam Collins',
           href: '/',
           class: 'title',
           id: 'title'
         },
         {
-          key: 'nav4',
+          key: 'nav9',
           title: 'Contact',
           href: '#',
           class: className,
           id: 'contact'
         },
         {
-          key: 'nav3',
+          key: 'nav8',
           title: 'How',
           href: '#',
           class: className,
           id: 'how'
         },
         {
-          key: 'nav2',
+          key: 'nav7',
           title: 'Blog',
           href: '#',
           class: className,
           id: 'blog'
         },
         {
-          key: 'nav1',
+          key: 'nav6',
           title: 'Story',
           href: '/story',
           class: className,

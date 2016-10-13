@@ -12,8 +12,8 @@ class MyNavbar extends React.Component {
   mapLink(link) {
 
     return (
-      <li>
-        <Link key={link.get('key')} to={link.get('href')} className={link.get('class')} id={link.get('id')}>
+      <li key={link.get('key')}>
+        <Link to={link.get('href')} className={link.get('class')} id={link.get('id')}>
           { link.get('title') }
         </Link>
       </li>

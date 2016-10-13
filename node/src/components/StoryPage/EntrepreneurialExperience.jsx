@@ -33,17 +33,15 @@ class EntrepreneurialExperience extends React.Component {
           isOpen={this.props.clkTech.get('isOpen')}
           company="CLK Tech"
         >
-          <p>
-            <ul>
+          <ul>
 
-              <li>Founded a technical consulting company with a team of software developers and project managers</li>
+            <li>Founded a technical consulting company with a team of software developers and project managers</li>
 
-              <li>Handled technical communication with non-technical clients in order to meet client needs</li>
+            <li>Handled technical communication with non-technical clients in order to meet client needs</li>
 
-              <li>Worked as the Technical and Team Lead for the majority of projects</li>
+            <li>Worked as the Technical and Team Lead for the majority of projects</li>
 
-            </ul>
-          </p>
+          </ul>
         </Experience>
 
         <Experience
@@ -54,18 +52,16 @@ class EntrepreneurialExperience extends React.Component {
           isOpen={this.props.rentIQ.get('isOpen')}
           company="RentIQ"
         >
-          <p>
-            <ul>
+          <ul>
 
-              <li>Developed a web app with Twilio integration for Landlords to manage maintenacne request</li>
-              <li>Obtained a paying customer!</li>
-              <li>Called every landload we could find in Cleveland</li>
-              <li>After finding a need from conversations with landlords developed a plan to create asset management software</li>
-              <li>Obtained several prospective buyers</li>
+            <li>Developed a web app with Twilio integration for Landlords to manage maintenacne request</li>
+            <li>Obtained a paying customer!</li>
+            <li>Called every landload we could find in Cleveland</li>
+            <li>After finding a need from conversations with landlords developed a plan to create asset management software</li>
+            <li>Obtained several prospective buyers</li>
 
-            </ul>
+          </ul>
 
-          </p>
         </Experience>
 
         <Experience
@@ -76,12 +72,12 @@ class EntrepreneurialExperience extends React.Component {
           isOpen={this.props.koalah.get('isOpen')}
           company="Koalah"
         >
-          <p>
-            <ul>
-              <li>Worked with the Django Web Framework to serve open source HTML5 games</li>
-              <li>Entered late-stage acquisition talks with a Fortune 500 company and a venture-backed startup</li>
-            </ul>
-          </p>
+
+          <ul>
+            <li>Worked with the Django Web Framework to serve open source HTML5 games</li>
+            <li>Entered late-stage acquisition talks with a Fortune 500 company and a venture-backed startup</li>
+          </ul>
+
         </Experience>
 
       </ExperienceSection>
