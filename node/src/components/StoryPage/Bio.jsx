@@ -14,15 +14,18 @@ class Bio extends React.Component {
       <Card className="bio">
         <h1> My Story </h1>
         <p> 
-          Lorem ipsum dolor sit amet, has ea rebum lucilius, an vel sumo sanctus, quo agam nemore te. Ei sit tritani expetenda, est nobis putent fierent ei. Pri et nisl summo tantas. Denique verterem te vix. An eripuit evertitur voluptatum est, iriure hendrerit no has. In mea vivendo probatus, invenire conclusionemque vel ea. His ignota sapientem ut.
-          <br/>
-          Regione tritani dolores ei est. Nam putent iuvaret ea, ne pri quidam urbanitas contentiones. Ignota iisque iuvaret ei sed, ad his debet eloquentiam. At nam quot dicunt, cu eos labores admodum.
-          <br/>
-          Ea pro omnesque perfecto eleifend, quis eirmod comprehensam in vis. Qualisque vituperata an cum. Vix cu quando homero. An civibus platonem neglegentur est, pri in veri latine constituam. Quodsi commune eu nam, quidam percipit eum ad, ne vis fugit sensibus.
-          <br/>
-          Munere consequuntur cu pro, his te nullam nostrud officiis. Nec ut impetus iuvaret nominati, est error nonumy laoreet at, mea ea audire facilis electram. No dicit legere eirmod sed, eam omnes decore reformidans in, pro no aperiri theophrastus. Possit erroribus incorrupte per ex, eam salutandi democritum ad. Te mea postea adversarium, ut mea etiam mnesarchum.
-          <br/>
-          Eos at dictas labores quaerendum, et pro offendit perpetua adipiscing. Quem iriure qui ei, ferri legere eum ei. Eu vide regione cum, eius voluptaria vel ut. Te eum tollit hendrerit. Cu duo semper cotidieque, no cum erat dicat instructior.
+          What up my nerds! 
+          <br />
+          <br />
+          Welcome to the website. You may be wondering who I am at this point. I was born and raised in Evanston, IL. I'm graduating from Case Western with a double major in Electrical Engineering and Computer Engineering in May of 2017. I'm a member of the Case Western Men’s Varsity Tennis Team. I personally believe most people who do not play a sport in college underestimate the commitment that varsity athletics require. So to set the record straight, I have dedicated about twenty hours a week year round to training for Case Tennis. This has entirely shaped who I am and I'm proud of that.
+          <br />
+          <br />
+          My real passion is web development. I'm a full stack web developer; which means I'm generalist who has some experience with technologies ranging from Docker to React. I love learning and I think new emerging technologies are dope, especially when they involve JavaScript.
+          <br />
+          <br />
+          Moto:
+          <br />
+          Give me a little coffee, a vim text editor, Kanye West's full discography, and a StackOverflow account and I can make anything. 
         </p>
       </Card>
     );

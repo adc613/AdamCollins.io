@@ -25,5 +25,3 @@ const store = createStore(
 
 
 export default store;
-
-var hello;

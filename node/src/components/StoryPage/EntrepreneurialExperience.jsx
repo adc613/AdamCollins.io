@@ -34,19 +34,20 @@ class EntrepreneurialExperience extends React.Component {
           company="CLK Tech"
         >
           <p>
-            Lorem ipsum asldkfj jsfkfhelasof lkjero this is a random descritpion
-            super logn a;ltjdsf;lj askl;dfj als;fjl;ads jlfjadslkfjadklsf
-            fadsklfjadsl;fjadsklj fads'f
-            asfasdkjfadls;kfj ;las
-            asf kl;asdjf;lasdjfas 'da
-            \sdfkl;asdjf;lasf
-            asfkl;ajsdfl;adsjfadsf;ladjsfkl;j
-            i dont care jsut some placeholder text hows likfe good tahts good
+            <ul>
+
+              <li>Founded a technical consulting company with a team of software developers and project managers</li>
+
+              <li>Handled technical communication with non-technical clients in order to meet client needs</li>
+
+              <li>Worked as the Technical and Team Lead for the majority of projects</li>
+
+            </ul>
           </p>
         </Experience>
 
         <Experience
-          date="May 2016 - present"
+          date="August 2015 - Febtruary 2016"
           key="rentIQ"
           sizeName="rentIQ"
           onClick={ this.onExperienceClick('rentIQ') }
@@ -54,13 +55,21 @@ class EntrepreneurialExperience extends React.Component {
           company="RentIQ"
         >
           <p>
-            Lorem ipsum asldkfj jsfkfhelasof lkjero this is a random descritpion
-            i dont care jsut some placeholder text hows likfe good tahts good
+            <ul>
+
+              <li>Developed a web app with Twilio integration for Landlords to manage maintenacne request</li>
+              <li>Obtained a paying customer!</li>
+              <li>Called every landload we could find in Cleveland</li>
+              <li>After finding a need from conversations with landlords developed a plan to create asset management software</li>
+              <li>Obtained several prospective buyers</li>
+
+            </ul>
+
           </p>
         </Experience>
 
         <Experience
-          date="May 2016 - present"
+          date="January 2014 - August 2015"
           key="koalah"
           sizeName="koalah"
           onClick={ this.onExperienceClick('koalah') }
@@ -68,8 +77,10 @@ class EntrepreneurialExperience extends React.Component {
           company="Koalah"
         >
           <p>
-            Lorem ipsum asldkfj jsfkfhelasof lkjero this is a random descritpion
-            i dont care jsut some placeholder text hows likfe good tahts good
+            <ul>
+              <li>Worked with the Django Web Framework to serve open source HTML5 games</li>
+              <li>Entered late-stage acquisition talks with a Fortune 500 company and a venture-backed startup</li>
+            </ul>
           </p>
         </Experience>
 
