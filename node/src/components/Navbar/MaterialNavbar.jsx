@@ -32,7 +32,7 @@ class MaterialNavbar extends React.Component {
         {
           key: 'nav8',
           title: 'How',
-          href: '#',
+          href: 'https://github.com/adc82/AdamCollins.io',
           class: className,
           id: 'how'
         },

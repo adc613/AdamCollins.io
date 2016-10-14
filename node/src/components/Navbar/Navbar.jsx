@@ -11,13 +11,34 @@ class MyNavbar extends React.Component {
 
   mapLink(link) {
 
-    return (
-      <li key={link.get('key')}>
-        <Link to={link.get('href')} className={link.get('class')} id={link.get('id')}>
-          { link.get('title') }
-        </Link>
-      </li>
-    );
+
+    let href = link.get('href');
+
+    if(href.substring(0, 4) === "http") {
+
+      return (
+        <li key={link.get('key')}>
+          <a href={link.get('href')} className={link.get('class')} id={link.get('id')}>
+            { link.get('title') }
+          </a>
+        </li>
+      );
+
+
+    } else {
+
+      return (
+        <li key={link.get('key')}>
+          <Link to={link.get('href')} className={link.get('class')} id={link.get('id')}>
+            { link.get('title') }
+          </Link>
+        </li>
+      );
+
+    }
+
+
+
   }
 
   render() {

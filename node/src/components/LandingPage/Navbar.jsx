@@ -31,7 +31,7 @@ class Navbar extends React.Component {
         {
           key: 'nav3',
           title: 'How',
-          href: '#',
+          href: 'https://github.com/adc82/AdamCollins.io',
           class: className,
           id: ''
         },
