@@ -38,7 +38,7 @@ class Navbar extends React.Component {
         {
           key: 'nav4',
           title: 'Contact',
-          href: '#',
+          href: '/contact',
           class: className,
           id: ''
         },
