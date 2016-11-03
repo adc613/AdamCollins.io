@@ -25,7 +25,7 @@ class MaterialNavbar extends React.Component {
         {
           key: 'nav9',
           title: 'Contact',
-          href: '#',
+          href: '/contact',
           class: className,
           id: 'contact'
         },
