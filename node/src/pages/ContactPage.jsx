@@ -14,14 +14,21 @@ class ContactPage extends React.Component {
   render() {
     return (
       <div>
+
         <MyNavbar />
 
         <div className="container">
 
+          <br /> 
+          <br /> 
+          <br /> 
+
           <h1> Take My Buisness Card </h1>
+          <br /> 
           <BuisnessCard />
 
         </div>
+
       </div>
     );
   }

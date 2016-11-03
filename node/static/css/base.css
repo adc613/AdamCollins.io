@@ -80,3 +80,10 @@ nav ul li {
   height: 5px;
   background-color: white;
 }
+
+.container {
+
+  max-width:960px;
+  margin: 0 auto;
+
+}
