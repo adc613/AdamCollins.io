@@ -39,11 +39,6 @@ class BuisnessCard extends React.Component {
                           <tspan x="0" y="162">A</tspan>
                       </text>
                   </g>
-                  <text id="Full-Stack-Web-Devel" fontFamily="Roboto-Medium, Roboto" fontSize="24" fontWeight="400" fillOpacity="0.87" fill="#000000">
-                      <tspan x="84" y="61">Full Stack </tspan>
-                      <tspan x="84" y="89">Web </tspan>
-                      <tspan x="84" y="117">Developer</tspan>
-                  </text>
                   <text id="adc613@gmail.com" fontFamily="Roboto-Medium, Roboto" fontSize="24" fontWeight="400" fillOpacity="0.87" fill="#000000">
                       <tspan x="624" y="299">adc613@gmail.com</tspan>
                   </text>
@@ -51,7 +46,7 @@ class BuisnessCard extends React.Component {
                       <tspan x="652" y="257">Twitter: @adc613</tspan>
                   </text>
                   <text id="Partner-Consultant-a" fontFamily="Roboto-Medium, Roboto" fontSize="24" fontWeight="400" fillOpacity="0.87" fill="#000000">
-                      <tspan x="535" y="341">Partner at CLK Technoloiges</tspan>
+                      <tspan x="568" y="341">Full-Stack Web Developer</tspan>
                   </text>
                   <text id="Adam-Collins" fontFamily="Roboto-Medium, Roboto" fontSize="36" fontWeight="400" fillOpacity="0.87" fill="#000000">
                       <tspan x="634" y="88">Adam Collins</tspan>
