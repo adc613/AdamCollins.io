@@ -14,52 +14,52 @@ class CountDown extends React.Component {
       <div id="count-down">
         <div className="left-block">
           <h2>Graduation Date</h2>
-          <h3>May 2017</h3>
+          <h3>May 21, 2017</h3>
         </div>
         <div className="right-block">
 
           <div className="time-block">
             <div className="time-number">
-              <h2> 11 </h2>
+              <h2>{ this.props.months }</h2>
             </div>
             <div className="time-title">
-              <h6> months </h6>
+              <h6>months</h6>
             </div>
           </div>
 
           <div className="time-block">
             <div className="time-number">
-              <h2> 20 </h2>
+              <h2>{ this.props.days }</h2>
             </div>
             <div className="time-title">
-              <h6> days </h6>
+              <h6>days</h6>
             </div>
           </div>
 
           <div className="time-block">
             <div className="time-number">
-              <h2> 13 </h2>
+              <h2>{ this.props.hours }</h2>
             </div>
             <div className="time-title">
-              <h6> hours </h6>
+              <h6>hours</h6>
             </div>
           </div>
 
           <div className="time-block">
             <div className="time-number">
-              <h2> 3 </h2>
+              <h2>{ this.props.minutes }</h2>
             </div>
             <div className="time-title">
-              <h6> minutes </h6>
+              <h6>minutes</h6>
             </div>
           </div>
 
           <div className="time-block">
             <div className="time-number">
-              <h2> 32 </h2>
+              <h2>{ this.props.seconds }</h2>
             </div>
             <div className="time-title">
-              <h6> seconds </h6>
+              <h6>seconds</h6>
             </div>
           </div>
 

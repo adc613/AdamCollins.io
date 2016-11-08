@@ -1,7 +1,7 @@
 import React from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import Navbar from '../components/LandingPage/Navbar';
-import CountDown from '../components/LandingPage/CountDown';
+import CountDownContainer from '../components/LandingPage/CountDownContainer';
 import Title from '../components/LandingPage/Title';
 
 
@@ -15,7 +15,7 @@ class LandingPage extends React.Component {
     return (
       <div id="LandingPage">
         <Navbar />
-        <CountDown />
+        <CountDownContainer />
         <Title />
       </div>
     );
