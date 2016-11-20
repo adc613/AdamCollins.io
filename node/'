@@ -4,7 +4,7 @@ import MyNavbar from '../components/Navbar/MaterialNavbar';
 import BuisnessCard from '../components/ContactPage/BuisnessCard';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import * as actionCreators from '../actions/metaActions';
+import * as actionCreators from '../../actions/storyPageActions';
 
 
 class ContactPage extends React.Component {
@@ -16,7 +16,7 @@ class ContactPage extends React.Component {
 
   componentDidMount() {
 
-    this.props.actions.activePage('contact');
+    this.actions.activePage('contact');
 
   }
 
@@ -56,11 +56,9 @@ function mapStateToProps(state) {
 
 
 function mapDispatchToProps(dispatch) {
-
   return {
     actions: bindActionCreators(actionCreators, dispatch),
   };
-
 }
 
 

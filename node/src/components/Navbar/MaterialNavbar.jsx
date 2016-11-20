@@ -27,6 +27,7 @@ class MaterialNavbar extends React.Component {
           title: 'Contact',
           href: '/contact',
           class: className,
+          active: this.props.activePage === 'story',
           id: 'contact'
         },
         {
@@ -48,7 +49,7 @@ class MaterialNavbar extends React.Component {
           title: 'Story',
           href: '/story',
           class: className,
-          active: true,
+          active: this.props.activePage === 'story',
           id: 'story',
         },
       ]);
