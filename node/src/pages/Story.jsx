@@ -55,7 +55,6 @@ class StoryPage extends React.Component {
     this.marginTop = Math.min(offset - 20, offset / 2 + position);
     container.style.marginTop  = this.marginTop + 'px';
 
-    console.log(container.style.marginTop);
 
   }
 
