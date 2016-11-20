@@ -87,3 +87,19 @@ nav ul li {
   margin: 0 auto;
 
 }
+
+#background-banner-image {
+
+  width: 100%;
+  position: absolute;
+  z-index:0;
+
+}
+
+#floating-container {
+
+  width: 100%;
+  position:absolute;
+  z-index: 1;
+
+}
