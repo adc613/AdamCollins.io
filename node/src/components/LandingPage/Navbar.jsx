@@ -24,7 +24,7 @@ class Navbar extends React.Component {
         {
           key: 'nav2',
           title: 'Blog',
-          href: 'https://FullStackHacks.com',
+          href: 'http://FullStackHacks.com',
           class: className,
           id: ''
         },
