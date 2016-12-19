@@ -39,7 +39,7 @@ class MaterialNavbar extends React.Component {
         {
           key: 'nav7',
           title: 'Blog',
-          href: 'https://FullStackHacks.com',
+          href: 'http://FullStackHacks.com',
           class: className,
           id: 'blog'
         },
