@@ -46,11 +46,11 @@ export function updateCountdown() {
   month = month - date.getMonth() + commencementDate.getMonth();
   month = Math.max(month, 0);
 
-  let days = month > 0 ? commencementDate.getDate() : commencementDate.getDate() - date.getDate();
+  let days = month > 0 ? commencementDate.getDate()  : commencementDate.getDate() - date.getDate();
 
   return (dispatch, getState) => {
 
-    return dispatch(updateCountdownAction(month, day, hour, minute, second));
+    return dispatch(updateCountdownAction(month, days, hour, minute, second));
 
   };
 
